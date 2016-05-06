@@ -1,6 +1,10 @@
 body{
 	background-color: #A6A6A6;
 }
+h1, h2, h3{
+	margin:0;
+}
+
 #paperback{
 	background-image: url("elements/bg.png");
 }
@@ -9,4 +13,70 @@ body{
 	margin:auto;
 	width: 994px;
 	background-color: #FFF;
+}
+.imgblock{
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	width: 900px;
+	height: 508px;
+}
+.bloctitle{
+	width: 900px;
+	margin-right:auto;
+	margin-left: auto;
+	padding-top: 50px; 
+}
+.title{font-family: Terminal Dosis;
+font-size: 52px;}
+#container{
+	width: 900px;
+	margin: auto;
+}
+#menunav{
+	border-top-width: 1px;
+	border-top-color: #dfdfdf;
+	border-top-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #dfdfdf;
+	border-bottom-style: solid;
+}
+#menunav{
+	text-align: center;
+	background-image: url("elements/bg.png");
+	width: 900px;
+	height: 59px;
+	margin: 25px auto;
+}
+#menunav ul{
+	padding: 0;
+	}
+#menunav ul li{
+	padding: 0 20px;
+	display: inline-block;
+	}
+
+.blockloupe{
+	float: right;
+	background-color: #dfdfdf;
+	width: 34;
+	height: 22;
+}
+.loupe img{
+	margin:2;
+}
+.post-title{
+	font-family: Terminal Dosis;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 22px;
+}
+.detailpost{
+	margin-bottom: 30px; 
+}
+.detailpost p{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
 }
