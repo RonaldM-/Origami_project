@@ -27,23 +27,33 @@ h1, h2, h3{
 	margin-left: auto;
 	padding-top: 50px; 
 }
-.title{font-family: Terminal Dosis;
-font-size: 52px;}
+.title h1{font-family: "Terminal Dosis", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 200;
+	font-size: 52px;}
+
+h3{
+	font-family: Helvetica Neue;
+	color: #666;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+
+}
 #container{
 	width: 900px;
 	margin: auto;
 }
 #menunav{
 	border-top-width: 1px;
-	border-top-color: #dfdfdf;
+	border-top-color: #EEEEEE;
 	border-top-style: solid;
 	border-bottom-width: 1px;
-	border-bottom-color: #dfdfdf;
+	border-bottom-color: #EEEEEE;
 	border-bottom-style: solid;
 }
 #menunav{
 	text-align: center;
-	background-image: url("elements/bg.png");
+	background-color: #F9F9F9;
 	width: 900px;
 	height: 59px;
 	margin: 25px auto;
@@ -55,6 +65,13 @@ font-size: 52px;}
 	padding: 0 20px;
 	display: inline-block;
 	}
+
+#menunav ul li a{
+	color: #505050;
+	font-family: Helvetica Neue;
+	font-size: 13px;
+	text-decoration: none;
+}
 
 .blockloupe{
 	float: right;
